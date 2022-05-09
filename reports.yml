@@ -1,0 +1,18 @@
+---
+workspace:
+    - TotalTasks: "Total tasks"
+    - TotalWorkers: "Total workers"
+    - TasksByStatus: "Tasks by status"
+    - ActivityStatistics: "Activity statistics"
+
+workflow:
+    - TotalTasks: "Total tasks"
+    - TasksByStatus: "Tasks by status"
+
+taskqueue:
+    - TasksByPriority: "Tasks by priority"
+    - TasksByStatus: "Tasks by status"
+    - TotalAvailableWorkers: "Total available workers"
+    - TotalEligibleWorkers: "Total eligible workers"
+    - TotalTasks: "Total tasks"
+    - ActivityStatistics: "Activity statistics"
