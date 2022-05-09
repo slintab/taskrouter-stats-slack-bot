@@ -8,7 +8,7 @@ The statistics available for querying are listed in the `reports.yml` file.
 Installing the TaskRouter Stats Bot requires a Slack app. You can create one by following the instructions [here](https://api.slack.com/apps). 
 
 ***Deploying the bot application***
-1. Provide the required configuration variables by editing the `env.list` file. The following variables are required to be set:
+1. Provide the configuration variables by editing the `env.list` file. The following variables are required:
    - `SLACK_SIGNING_SECRET=<YOUR_SLACK_APPS_SIGNING_SECRET>` 
    - `SLACK_BOT_TOKEN=<YOUR_SLACK_BOT_TOKEN>`
    - `TWILIO_AUTH_TOKEN=<YOUR_TWILIO_AUTH_TOKEN`
@@ -28,7 +28,7 @@ Installing the TaskRouter Stats Bot requires a Slack app. You can create one by 
    - **Request URL**: `https://YOUR_DOMAIN.com:3000/slack/events`
    - **Usage hint**:  `workspace [or taskqueue, worker, workflow, help]` 
 3. Enable [interactivity](https://api.slack.com/interactivity/handling#setup) for your Slack app.
-   - Set the **Request URL** to: https://YOUR_DOMAIN.com:3000/slack/events
+   - Set the **Request URL** to: `https://YOUR_DOMAIN.com:3000/slack/events`
 
 ## Usage
 
