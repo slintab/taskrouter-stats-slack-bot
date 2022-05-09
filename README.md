@@ -36,9 +36,9 @@ To start using the bot, add your app to a channel and enter the `/tr-starts` com
 
 ## Demo
 
-![Bot Screenshot Prompt](images/screenshot_1.png?raw=true)
+![Bot Screenshot Prompt](images/screenshot_1.png)
 
-![Bot Screenshot Results](images/screenshot_2.png?raw=true)
+![Bot Screenshot Results](images/screenshot_2.png)
 
 
 
